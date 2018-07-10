@@ -15,17 +15,17 @@ date = gets.chomp
 
 puts "What is the time of the party?"
 
-time = get.chomp
+time = gets.chomp
 
 puts "What is the host's name?"
 
 host_name = gets.chomp
 
-puts "Dear #{guest_name},"
+print "Dear #{guest_name},"
 puts "You are cordially invited to the #{party_name} on #{date} at #{time} ."
 puts "Please RSVP no later than October 30."
 
 puts "Sincerely,"
-puts "#{host_name.capitalize}"
+#{host_name}
 
 # Try starting out with puts'ing a string.
