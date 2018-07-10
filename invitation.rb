@@ -21,9 +21,11 @@ puts "What is the host's name?"
 
 host_name = gets.chomp
 
-puts "Dear #{guest_name},
-You are cordially invited to the #{party_name} on #{date} at #{time} . Please RSVP no later than October 30.
-Sincerely,
-#{host_name}"
+puts "Dear #{guest_name},"
+puts "You are cordially invited to the #{party_name} on #{date} at #{time} ."
+puts "Please RSVP no later than October 30."
+
+puts "Sincerely,"
+puts "#{host_name.capitalize}"
 
 # Try starting out with puts'ing a string.
